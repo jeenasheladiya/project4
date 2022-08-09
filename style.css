@@ -1,0 +1,76 @@
+.container {
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar-container {
+  display: flex;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.navbar-container img {
+  width: 90px;
+  margin: 30px 60px;
+}
+.grow-list {
+  display: flex;
+}
+.list {
+  display: flex;
+  list-style: none;
+}
+.list-item {
+  display: inline-block;
+  padding: 23px 23px;
+}
+.banner-container {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  height: 80vh;
+  font-family: poppins;
+  font-size: 40px;
+  margin-left: 50px;
+}
+.button-group .nav-button {
+  background-color: #8d3daf;
+  margin-top: 30px;
+  padding: 5px 23px;
+  border-radius: 8px;
+  margin-left: 450px;
+  color: #ffffff;
+}
+.heading-text {
+  font-size: 50px;
+  flex-direction: column;
+  margin-top: 20px;
+  inline-size: 400px;
+  overflow-wrap: break-word;
+  margin-left: 50px;
+}
+
+span {
+  color: #8d3daf;
+}
+.description {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 50px;
+  inline-size: 400px;
+  overflow-wrap: break-word;
+}
+.nav-button-btn {
+  padding: 10px 25px;
+  background-color: #8d3daf;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  margin-left: 50px;
+}
+.right img {
+  margin-left: 10%;
+  height: 100%;
+  width: 750px;
+}
